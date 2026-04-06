@@ -1,11 +1,335 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mahmoud-shamekh-portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahmoud Shamekh — Mechatronics Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+        rel="stylesheet" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
 <body>
-    
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-first">MAHMOUD</span>
+                <span class="logo-last">SHAMEKH</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active" data-section="hero">Home</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#certificates" class="nav-link" data-section="certificates">Certificates</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="toggle-icon sun"><i class="fa-solid fa-sun"></i></span>
+                    <span class="toggle-icon moon"><i class="fa-solid fa-moon"></i></span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#hero" class="mob-link">Home</a>
+            <a href="#projects" class="mob-link">Projects</a>
+            <a href="#certificates" class="mob-link">Certificates</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-noise"></div>
+        <div class="container">
+            <div class="hero-tag reveal">MECHATRONICS PORTFOLIO 2026</div>
+            <h1 class="hero-title">
+                <span class="reveal-line">MAHMOUD</span>
+                <span class="reveal-line delay-1">MOHAMED</span>
+                <span class="reveal-line delay-2">SHAMEKH</span>
+            </h1>
+            <div class="hero-sub reveal delay-3">
+                <span class="hero-role">MECHATRONICS ENGINEER</span>
+                <p class="hero-desc">Bridging the gap between tight mechanical systems and intelligent electronic
+                    control
+                    through precise engineering and innovative design.</p>
+            </div>
+            <div class="hero-index reveal delay-4"><span>01</span> <span class="slash">//</span></div>
+        </div>
+        <div class="hero-scroll-hint reveal delay-4">
+            <span>SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- OBJECTIVE  -->
+    <section id="objective" class="objective-section">
+        <div class="container">
+            <p class="section-eyebrow reveal">OBJECTIVE</p>
+            <h2 class="objective-text reveal">
+                MY GOAL IS TO APPLY
+                <strong>MODERN TECHNOLOGIES</strong> TO
+                COMPLEX REAL-WORLD ENGINEERING SYSTEMS,
+                CREATING EFFICIENT, AUTONOMOUS, AND
+                <em>SCALABLE SOLUTIONS</em> FOR
+                THE FUTURE OF INDUSTRY.
+            </h2>
+        </div>
+    </section>
+
+    <!-- TOOLKIT -->
+    <section id="toolkit" class="toolkit-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title-lg">TOOLKIT</h2>
+                <span class="section-counter">02 //</span>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card reveal delay-1">
+                    <div class="tool-icon"><i class="fa-solid fa-cube"></i></div>
+                    <h3>Fusion 360</h3>
+                    <p>CAD Design & Simulation</p>
+                </div>
+                <div class="tool-card reveal delay-2">
+                    <div class="tool-icon"><i class="fa-solid fa-drafting-compass"></i></div>
+                    <h3>SolidWorks</h3>
+                    <p>Mechanical Modelling</p>
+                </div>
+                <div class="tool-card reveal delay-3">
+                    <div class="tool-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>MATLAB</h3>
+                    <p>Simulation & Analysis</p>
+                </div>
+                <div class="tool-card reveal delay-4">
+                    <div class="tool-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Embedded Systems</h3>
+                    <p>Arduino, STM32</p>
+                </div>
+                <div class="tool-card reveal delay-1">
+                    <div class="tool-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>ROS</h3>
+                    <p>Robot Operating System</p>
+                </div>
+                <div class="tool-card reveal delay-2">
+                    <div class="tool-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Python / C++</h3>
+                    <p>Programming & Automation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  PROJECTS  -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title-xl">SELECTED<br>PROJECTS</h2>
+                <span class="section-counter">03 //</span>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal delay-1">
+                    <div class="project-img gears">
+                        <div class="proj-overlay">
+                            <span class="proj-view">VIEW PROJECT <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <i class="fa-solid fa-gears proj-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>MATLAB</span><span>CAD</span>
+                        </div>
+                        <h3>SIMULATION OF MECHANICAL SYSTEMS</h3>
+                        <p>Full multi-body simulation using MATLAB/Simulink. Focuses on stress analysis and dynamic
+                            optimisation of
+                            drivetrain components.</p>
+                    </div>
+                </article>
+                <article class="project-card reveal delay-2">
+                    <div class="project-img elevator">
+                        <div class="proj-overlay">
+                            <span class="proj-view">VIEW PROJECT <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <i class="fa-solid fa-elevator proj-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>EMBEDDED</span><span>CAD</span>
+                        </div>
+                        <h3>ELECTRIC ELEVATOR DESIGN</h3>
+                        <p>Full-scale design of a vertical transport system. Integration of PID control logic with
+                            edge-torque motor
+                            systems, ensuring safety redundancies and energy efficiency.</p>
+                    </div>
+                </article>
+                <article class="project-card reveal delay-3">
+                    <div class="project-img drone">
+                        <div class="proj-overlay">
+                            <span class="proj-view">VIEW PROJECT <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <i class="fa-solid fa-helicopter proj-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>ROS</span><span>PYTHON</span>
+                        </div>
+                        <h3>AUTONOMOUS DRONE SYSTEM</h3>
+                        <p>Designed and programmed an autonomous navigation system for UAVs using ROS and sensor fusion
+                            techniques
+                            for obstacle avoidance.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--  CERTIFICATES  -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title-xl">CERTIFICATES</h2>
+                <span class="section-counter">04 //</span>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card reveal delay-1">
+                    <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">COURSERA</span>
+                        <h3>Introduction to Embedded Systems</h3>
+                        <span class="cert-year">2024</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal delay-2">
+                    <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">AUTODESK</span>
+                        <h3>Fusion 360 Certified User</h3>
+                        <span class="cert-year">2023</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal delay-3">
+                    <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">MATHWORKS</span>
+                        <h3>MATLAB Fundamentals</h3>
+                        <span class="cert-year">2023</span>
+                    </div>
+                </div>
+                <div class="cert-card reveal delay-4">
+                    <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                    <div class="cert-info">
+                        <span class="cert-issuer">UDEMY</span>
+                        <h3>PLC & Industrial Automation</h3>
+                        <span class="cert-year">2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  EDUCATION  -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="edu-content reveal">
+                <p class="section-eyebrow">EDUCATIONAL BACKGROUND</p>
+                <div class="edu-block">
+                    <h2 class="edu-uni">BENHA<br>UNIVERSITY</h2>
+                    <div class="edu-details">
+                        <h3>BACHELOR OF MECHATRONICS ENGINEERING</h3>
+                        <p>Faculty of Engineering — Shoubra</p>
+                        <p class="edu-year">GRADUATION YEAR 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  CTA -->
+    <section id="cta" class="cta-section">
+        <div class="container">
+            <h2 class="cta-title reveal">
+                LET'S BUILD THE
+                <em>FUTURE</em> TOGETHER
+            </h2>
+            <a href="#footer" class="cta-btn reveal delay-2">GET IN TOUCH <i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <div class="footer-top">
+            <div class="footer-brand reveal">
+                <span class="footer-logo">MAHMOUD SHAMEKH</span>
+                <p>Mechatronics Engineer — Cairo, Egypt</p>
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank" aria-label="GitHub" class="social-link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn" class="social-link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://facebook.com/" target="_blank" aria-label="Facebook" class="social-link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="footer-nav reveal delay-1">
+                <p class="footer-nav-title">NAVIGATE</p>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+
+            <!-- Contact Form -->
+            <div class="footer-contact reveal delay-2">
+                <p class="footer-nav-title">CONTACT US</p>
+                <form id="contactForm" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="userName" name="name" placeholder="Your Name" required
+                            autocomplete="off" />
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="userEmail" name="email" placeholder="Your Email" required
+                            autocomplete="off" />
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="userMessage" name="message" placeholder="Your Message" rows="4"
+                            required></textarea>
+                        <span class="form-error" id="msgError"></span>
+                    </div>
+                    <button type="submit" class="form-submit">
+                        <span class="btn-text">SEND MESSAGE</span>
+                        <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
+                    </button>
+                </form>
+                <!-- Success toast -->
+                <div class="form-success" id="formSuccess">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Message sent successfully! I'll get back to you soon.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Marwan Mohamed Shamekh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
